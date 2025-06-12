@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ProductsAPI.Domain;
-using static Dapper.SqlMapper;
 
 namespace ProductsAPI.Infra.Data;
 

@@ -88,16 +88,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -158,7 +150,7 @@
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidoPOST.cs",
               "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidoPOST.cs",
               "RelativeToolTip": "Endpoints\\Pedidos\\PedidoPOST.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T05:10:58.664Z",
               "EditorCaption": ""

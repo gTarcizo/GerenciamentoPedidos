@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E996775-2727-46BC-8F26-73A1790D00E1}|..\\ConsumerConsoleExample\\ConsumerConsoleExample.csproj|e:\\repositorio\\gerenciamentopedidos\\consumerconsoleexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\endpoints\\pedidos\\pedidopost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:endpoints\\pedidos\\pedidopost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\endpoints\\pedidos\\pedidosgetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:endpoints\\pedidos\\pedidosgetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E996775-2727-46BC-8F26-73A1790D00E1}|..\\ConsumerConsoleExample\\ConsumerConsoleExample.csproj|e:\\repositorio\\gerenciamentopedidos\\consumerconsoleexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E996775-2727-46BC-8F26-73A1790D00E1}|..\\ConsumerConsoleExample\\ConsumerConsoleExample.csproj|e:\\repositorio\\gerenciamentopedidos\\consumerconsoleexample\\consumerconsoleexample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -25,10 +33,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\infra\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\migrations\\20250612165720_refatorandobanco.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -74,10 +78,6 @@
       "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Repositorio\\GerenciamentoPedidos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -88,50 +88,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ConsumerConsoleExample\\Program.cs",
               "RelativeDocumentMoniker": "..\\ConsumerConsoleExample\\Program.cs",
               "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ConsumerConsoleExample\\Program.cs",
               "RelativeToolTip": "..\\ConsumerConsoleExample\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwEUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T19:43:45.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T22:03:20.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Infra\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\Infra\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Infra\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "..\\Shared\\Infra\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T19:06:09.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -144,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PedidoPOST.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidoPOST.cs",
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidoPOST.cs",
@@ -157,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PedidosGETAll.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidosGETAll.cs",
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidosGETAll.cs",
@@ -170,7 +152,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T02:25:09.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Infra\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\Infra\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Infra\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Shared\\Infra\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:06:09.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:03:20.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ConsumerConsoleExample",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ConsumerConsoleExample\\ConsumerConsoleExample.csproj",
               "RelativeDocumentMoniker": "..\\ConsumerConsoleExample\\ConsumerConsoleExample.csproj",
@@ -183,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "20250612165720_RefatorandoBanco.Designer.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612165720_RefatorandoBanco.Designer.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612165720_RefatorandoBanco.Designer.cs",
@@ -196,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "20250612060344_AtualizandoBancos.Designer.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612060344_AtualizandoBancos.Designer.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612060344_AtualizandoBancos.Designer.cs",
@@ -209,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20250612020631_InitialCreate.Designer.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612020631_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612020631_InitialCreate.Designer.cs",
@@ -222,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -235,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PedidoPUT.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidoPUT.cs",
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidoPUT.cs",
@@ -248,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20250612165720_RefatorandoBanco.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612165720_RefatorandoBanco.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612165720_RefatorandoBanco.cs",
@@ -261,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "20250612061401_CorrecaoAtualizandoBancos.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612061401_CorrecaoAtualizandoBancos.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612061401_CorrecaoAtualizandoBancos.cs",
@@ -274,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20250612060344_AtualizandoBancos.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612060344_AtualizandoBancos.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612060344_AtualizandoBancos.cs",
@@ -287,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20250612020631_InitialCreate.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Migrations\\20250612020631_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Migrations\\20250612020631_InitialCreate.cs",
@@ -300,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TokenPOST.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
               "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPOST.cs",
@@ -313,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Shared",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Shared.csproj",
               "RelativeDocumentMoniker": "..\\Shared\\Shared.csproj",
@@ -326,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ProductsAPI.csproj",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\ProductsAPI.csproj",
               "RelativeDocumentMoniker": "ProductsAPI.csproj",
@@ -339,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "TokenvalidationParameters.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\TokenvalidationParameters.cs",
               "RelativeDocumentMoniker": "TokenvalidationParameters.cs",
@@ -352,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Entity.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Domain\\Entity.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Domain\\Entity.cs",
@@ -361,19 +382,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T18:23:17.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T02:25:09.857Z",
               "EditorCaption": ""
             },
             {

@@ -1,6 +1,6 @@
 # 📦 Para utilizar API de Pedidos
 
-A API utiliza do Swagger UI para facilitar os endpoints e também utiliza a mensageria do RabbitMQ em um deles.  
+A API é feita em .NET e utiliza do Swagger UI para facilitar os endpoints e também utiliza a mensageria do RabbitMQ em um deles.  
 Ela está configurada na URL [https://localhost:7113/swagger/index.html](https://localhost:7113/swagger/index.html).
 Para que o método `PedidoPOST.cs` da API funcione corretamente, é **obrigatório** que o serviço RabbitMQ esteja instalado e em execução no seu docker desktop [docker desktop](https://www.docker.com/products/docker-desktop/).
 

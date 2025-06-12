@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ProductsAPI.Domain;
-using System.Reflection.Emit;
 
 namespace ProductsAPI.Infra.Data;
 

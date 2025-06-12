@@ -1,6 +1,6 @@
-﻿using ProductsAPI.Domain;
-using ProductsAPI.Infra.Data;
+﻿using ProductsAPI.Infra.Data;
 using Microsoft.AspNetCore.Authorization;
+using ProductsAPI.Domain;
 
 namespace ProductsAPI.Endpoints.Pedidos;
 

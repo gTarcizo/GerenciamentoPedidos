@@ -23,7 +23,6 @@ E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\staticwebassets
 E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\staticwebassets.development.json
 E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\Products.2F20E4EC.Up2Date
 E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\ProductsAPI.dll
 E:\Repositorio\GerenciamentoPedidos\ProductsAPI\obj\Debug\net8.0\refint\ProductsAPI.dll

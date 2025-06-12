@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using ProductsAPI.Endpoints.Pedidos;
-using ProductsAPI.Endpoints.Security;
-using ProductsAPI.Infra.Data;
+using ProductAPI.Endpoints.Pedidos;
+using ProductAPI.Endpoints.Security;
+using Shared.Infra.Data;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

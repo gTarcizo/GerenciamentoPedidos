@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
-using ProductsAPI.Domain;
-using ProductsAPI.Infra.Data;
+using Shared.Domain;
+using Shared.Infra.Data;
 
-namespace ProductsAPI.Endpoints.Pedidos;
+namespace ProductAPI.Endpoints.Pedidos;
 
 public class PedidosGETAll
 {

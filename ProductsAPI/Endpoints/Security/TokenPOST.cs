@@ -3,7 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
-namespace ProductsAPI.Endpoints.Security;
+namespace ProductAPI.Endpoints.Security;
 
 public class TokenPOST
 {

@@ -1,12 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ProductsAPI.Domain;
-using ProductsAPI.Endpoints.Pedidos;
-using ProductsAPI.EnumsSistema;
-using ProductsAPI.Infra.Data;
-using System.Security.Claims;
+using Shared.EnumsSistema;
+using Shared.Infra.Data;
 
-namespace ProductsAPI.Endpoints.Pedidos;
+namespace ProductAPI.Endpoints.Pedidos;
 
 public class PedidoPUT
 {

@@ -1,13 +1,12 @@
-﻿using ProductsAPI.Domain;
-using ProductsAPI.Endpoints.Pedidos;
-using ProductsAPI.Infra.Data;
+﻿using Shared.Domain;
+using Shared.Infra.Data;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using RabbitMQ.Client;
 using System.Text.Json;
 using System.Text;
 
-namespace ProductsAPI.Endpoints.Pedidos;
+namespace ProductAPI.Endpoints.Pedidos;
 
 public class PedidoPOST
 {
@@ -60,7 +59,7 @@ public class PedidoPOST
 
          await channel.BasicPublishAsync(exchange: "", routingKey: "criar-pedido", body: body);
          
-         return Results.Created("Pedido realizado!", $"Total de: {pedido.Total}");
+         return Results.Created("/pedido", $"Pedido realizado! total de: {pedido.Total}");
       }
       catch(Exception e)
     {

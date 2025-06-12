@@ -2,8 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/ProductsAPI/.vs/ProductsAPI/CopilotIndices/17.14.734.62261
-/ProductsAPI/.vs/ProductsAPIbin
-/ProductsAPI/.vs/ProductsAPIobj
+/ProductsAPI/.vs
 /ProductsAPI/obj
 /ProductsAPI/bin/Debug/net8.0

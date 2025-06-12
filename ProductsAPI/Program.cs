@@ -1,9 +1,9 @@
-using ProductsAPI.Endpoints.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ProductsAPI.Endpoints.Pedidos;
+using ProductsAPI.Endpoints.Security;
 using ProductsAPI.Infra.Data;
 using System.Text;
 
@@ -81,6 +81,8 @@ app.UseHttpsRedirection();
 
 #region Pedido
 app.MapMethods(PedidosGETAll.Pattern, PedidosGETAll.Methods, PedidosGETAll.Handler);
+app.MapMethods(PedidoPOST.Pattern, PedidoPOST.Methods, PedidoPOST.Handler);
+app.MapMethods(PedidoPUT.Pattern, PedidoPUT.Methods, PedidoPUT.Handler);
 #endregion
 
 #region Login

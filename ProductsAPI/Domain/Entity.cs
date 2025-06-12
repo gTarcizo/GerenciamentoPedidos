@@ -1,9 +1,8 @@
-﻿using Flunt.Notifications;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ProductsAPI.Domain;
 
-public abstract class Entity : Notifiable<Notification>
+public abstract class Entity
 {
   public Entity()
   {

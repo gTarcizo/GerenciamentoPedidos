@@ -5,12 +5,9 @@ namespace ProductsAPI.Domain;
 
 public class Pedido : Entity
 {
-   [Key]
-   public int Id { get; set; }
    public string Cliente { get; set; } = string.Empty;
-   public string Itens { get; set; } = string.Empty;
-   public double TotalPedido { get; set; }
-
+   public double Total { get; set; }
    public StatusPedidoEnum Status { get; set; }
+   public ICollection<ItemPedido> Itens { get; set; } = new List<ItemPedido>();
    public StatusPedido StatusPedido { get; set; }
 }

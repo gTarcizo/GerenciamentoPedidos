@@ -1,4 +1,4 @@
 ﻿using ProductsAPI.EnumsSistema;
 
 namespace ProductsAPI.Domain;
-public record PedidoDto(int id, string cliente, List<ItemPedidoDTO> itens, double totalPedido, StatusPedidoEnum status);
+public record PedidoDto(int id, string cliente, List<ItemPedido> itens, double totalPedido, StatusPedidoEnum status);

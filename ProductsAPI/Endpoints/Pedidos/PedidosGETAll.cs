@@ -17,21 +17,14 @@ public class PedidosGETAll
       try
       {
          List<Pedido> pedidos = new List<Pedido>();
-         List<PedidoDto> pedidosDTO = new List<PedidoDto>();
-
-         pedidos = await context.Pedidos.Include(p=> p.Itens).ToListAsync();
-         
+         List<PedidoDto> pedidoDto = new List<PedidoDto>();
+         pedidos = await context.Pedidos.Include(p => p.Itens).ToListAsync();
          foreach (var pedido in pedidos)
          {
-            List<ItemPedidoDTO> itensDTO = new List<ItemPedidoDTO>();
-            
-            foreach (var item in pedido.Itens)
-            {
-               itensDTO.Add(new ItemPedidoDTO(item.Nome, item.Quantidade, item.PrecoUnitario));
-            }
-            pedidosDTO.Add(new PedidoDto(pedido.Id, pedido.Cliente, itensDTO, pedido.Total, pedido.Status));
+            pedidoDto.Add(new PedidoDto(pedido.Id, pedido.Cliente, pedido.Itens, pedido.Total, pedido.Status));
          }
-         return Results.Ok(pedidosDTO);
+
+         return Results.Ok(pedidoDto);
       }
       catch (Exception e)
       {

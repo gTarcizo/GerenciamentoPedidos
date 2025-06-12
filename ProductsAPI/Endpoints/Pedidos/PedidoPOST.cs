@@ -20,6 +20,23 @@ public class PedidoPOST
   {
     try
     {
+         //var pedido = new Pedido()
+         //{
+         //   Cliente = pedidoDto.cliente, 
+         //   Itens = pedidoDto.itens.Select(i => new ItemPedido
+         //   {
+         //      Nome = i.Nome,
+         //      Quantidade = i.Quantidade,
+         //      PrecoUnitario = i.PrecoUnitario
+         //   }).ToList(), 
+         //   Total = pedidoDto.totalPedido,
+         //   Status = pedidoDto.status
+         //}; 
+         //context.Pedidos.Add(pedido);
+         //context.SaveChanges();
+
+         //return Results.Created($"/pedido/{pedido.Id}",pedido.Id);
+
          var pedido = new Pedido()
          {
             Cliente = pedidoDto.cliente,

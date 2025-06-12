@@ -8,6 +8,6 @@ public class Pedido : Entity
    public string Cliente { get; set; } = string.Empty;
    public double Total { get; set; }
    public StatusPedidoEnum Status { get; set; }
-   public ICollection<ItemPedido> Itens { get; set; } = new List<ItemPedido>();
+   public List<ItemPedido> Itens { get; set; } = new List<ItemPedido>();
    public StatusPedido StatusPedido { get; set; }
 }

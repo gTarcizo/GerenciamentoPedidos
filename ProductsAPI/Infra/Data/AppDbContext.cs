@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ProductsAPI.Domain;
+using static Dapper.SqlMapper;
 
 namespace ProductsAPI.Infra.Data;
 
@@ -17,28 +18,30 @@ public class AppDbContext : IdentityDbContext<IdentityUser>
    {
       base.OnModelCreating(builder);
       #region Pedido
-      builder.Entity<Pedido>(entity =>
+      builder.Entity<Pedido>(pedido =>
       {
-         entity.ToTable("Pedidos");
-         entity.HasKey(e => e.Id);
-         entity.Property(e => e.Cliente).IsRequired();
-         entity.Property(e => e.Total).IsRequired();
-         entity.Property(e => e.DataCriacao).IsRequired();
-         entity.Property(e => e.Status).HasConversion<int>().IsRequired();
-         entity.HasOne(e => e.StatusPedido).WithMany(s => s.Pedidos).HasForeignKey(e => (int)e.Status).HasConstraintName("FK_Pedidos_StatusPedido");
-         entity.HasMany(p => p.Itens)
+         pedido.ToTable("Pedidos");
+         pedido.HasKey(e => e.Id);
+         pedido.Property(e => e.Cliente).IsRequired();
+         pedido.Property(e => e.Total).IsRequired();
+         pedido.Property(e => e.DataCriacao).IsRequired();
+         pedido.Property(e => e.Status).HasConversion<int>().IsRequired();
+         pedido.HasOne(e => e.StatusPedido).WithMany(s => s.Pedidos).HasForeignKey(e => (int)e.Status).HasConstraintName("FK_Pedidos_StatusPedido");
+         pedido.HasMany(p => p.Itens)
               .WithOne(i => i.Pedido)
               .HasForeignKey(i => i.PedidoId);
       });
       #endregion
 
       #region Itens
-      builder.Entity<ItemPedido>(entity =>
+      builder.Entity<ItemPedido>(item =>
       {
-         entity.HasKey(i => i.Id);
-         entity.Property(i => i.Nome).IsRequired().HasMaxLength(200);
-         entity.Property(i => i.Quantidade).IsRequired();
-         entity.Property(i => i.PrecoUnitario).IsRequired();
+         item.HasKey(i => i.Id);
+         item.Property(i => i.Nome).IsRequired().HasMaxLength(200);
+         item.Property(i => i.Quantidade).IsRequired();
+         item.Property(i => i.PrecoUnitario).IsRequired();
+         item.HasOne(e => e.Pedido).WithMany(s => s.Itens).HasForeignKey(e => e.PedidoId).HasConstraintName("FK_Itens_PedidoId");
+
       });
       #endregion
 

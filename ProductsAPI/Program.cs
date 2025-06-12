@@ -6,6 +6,8 @@ using ProductsAPI.Endpoints.Pedidos;
 using ProductsAPI.Endpoints.Security;
 using ProductsAPI.Infra.Data;
 using System.Text;
+using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Http.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();

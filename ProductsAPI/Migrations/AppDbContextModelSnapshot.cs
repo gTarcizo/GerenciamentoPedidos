@@ -249,7 +249,7 @@ namespace ProductsAPI.Migrations
 
                     b.HasIndex("PedidoId");
 
-                    b.ToTable("Itens");
+                    b.ToTable("Itens", (string)null);
                 });
 
             modelBuilder.Entity("ProductsAPI.Domain.Pedido", b =>
@@ -291,7 +291,7 @@ namespace ProductsAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("StatusPedidos");
+                    b.ToTable("StatusPedidos", (string)null);
 
                     b.HasData(
                         new

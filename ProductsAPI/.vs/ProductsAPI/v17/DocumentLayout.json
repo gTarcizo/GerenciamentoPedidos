@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\endpoints\\pedidos\\pedidosgetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:endpoints\\pedidos\\pedidosgetall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\endpoints\\security\\tokenpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:endpoints\\security\\tokenpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\infra\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,10 +42,6 @@
       "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:tokenvalidationparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:domain\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,7 +61,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,31 +73,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Pedido.cs",
-              "RelativeDocumentMoniker": "Domain\\Pedido.cs",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Pedido.cs",
-              "RelativeToolTip": "Domain\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PedidosGETAll.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidosGETAll.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidosGETAll.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidosGETAll.cs",
+              "RelativeToolTip": "Endpoints\\Pedidos\\PedidosGETAll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T00:07:44.815Z"
+              "WhenOpened": "2025-06-12T02:49:27.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Entity.cs",
-              "RelativeDocumentMoniker": "Domain\\Entity.cs",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Entity.cs",
-              "RelativeToolTip": "Domain\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TokenPOST.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPOST.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
+              "RelativeToolTip": "Endpoints\\Security\\TokenPOST.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T00:07:07.397Z"
+              "WhenOpened": "2025-06-12T02:35:36.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:03:20.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T02:25:09.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Infra\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infra\\Data\\AppDbContext.cs",
@@ -98,20 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T22:03:20.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\.gitignore",
               "RelativeDocumentMoniker": "..\\.gitignore",
@@ -124,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "StatusPedido.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\StatusPedido.cs",
               "RelativeDocumentMoniker": "Domain\\StatusPedido.cs",
@@ -136,7 +163,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T22:04:12.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TokenvalidationParameters.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\TokenvalidationParameters.cs",
               "RelativeDocumentMoniker": "TokenvalidationParameters.cs",
@@ -148,19 +188,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T22:04:12.704Z"
+              "DocumentIndex": 10,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Entity.cs",
+              "RelativeDocumentMoniker": "Domain\\Entity.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Entity.cs",
+              "RelativeToolTip": "Domain\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T00:07:07.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Pedido.cs",
+              "RelativeDocumentMoniker": "Domain\\Pedido.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Domain\\Pedido.cs",
+              "RelativeToolTip": "Domain\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T00:07:44.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ProductsAPI.csproj",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\ProductsAPI.csproj",
               "RelativeDocumentMoniker": "ProductsAPI.csproj",
@@ -172,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "EnumsSistema.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\EnumsSistema.cs",
               "RelativeDocumentMoniker": "EnumsSistema.cs",

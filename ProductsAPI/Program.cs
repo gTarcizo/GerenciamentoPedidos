@@ -1,9 +1,11 @@
 using Dapper;
+using ProductsAPI.Endpoints.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using ProductsAPI.Endpoints.Pedidos;
 using ProductsAPI.Infra.Data;
 using RabbitMQ.Client;
 using System.Data.SqlClient;
@@ -48,6 +50,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
    options.Password.RequiredLength = 3;
 }).AddEntityFrameworkStores<AppDbContext>();
 
+
+builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(x =>
 {
    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -69,11 +73,23 @@ builder.Services.AddAuthentication(x =>
 
 var app = builder.Build();
 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseAuthentication();
+app.UseAuthorization();
 app.UseHttpsRedirection();
+
+#region Pedido
+app.MapMethods(PedidosGETAll.Pattern, PedidosGETAll.Methods, PedidosGETAll.Handler);
+#endregion
+
+#region Login
+app.MapMethods(TokenPOST.Pattern, TokenPOST.Methods, TokenPOST.Handler);
+#endregion
+
 app.Run();

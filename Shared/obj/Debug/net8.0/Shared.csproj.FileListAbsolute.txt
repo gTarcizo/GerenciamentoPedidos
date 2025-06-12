@@ -1,0 +1,15 @@
+E:\Repositorio\GerenciamentoPedidos\Shared\bin\Debug\net8.0\Shared.deps.json
+E:\Repositorio\GerenciamentoPedidos\Shared\bin\Debug\net8.0\Shared.runtimeconfig.json
+E:\Repositorio\GerenciamentoPedidos\Shared\bin\Debug\net8.0\Shared.dll
+E:\Repositorio\GerenciamentoPedidos\Shared\bin\Debug\net8.0\Shared.pdb
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.dll
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\refint\Shared.dll
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.pdb
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\Shared.genruntimeconfig.cache
+E:\Repositorio\GerenciamentoPedidos\Shared\obj\Debug\net8.0\ref\Shared.dll

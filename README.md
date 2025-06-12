@@ -1,7 +1,9 @@
 # 📦 Para utilizar API de Pedidos
 
-A API é feita em .NET e utiliza do Swagger UI para facilitar os endpoints e também utiliza a mensageria do RabbitMQ em um deles.  
+A API é feita em .NET e utiliza do Swagger UI para facilitar os endpoints que são gravados no banco usando EF Core e também utiliza a mensageria do RabbitMQ em um deles.  
 Ela está configurada na URL [https://localhost:7113/swagger/index.html](https://localhost:7113/swagger/index.html).
+E todos updates de database são feitos no ProductsAPI
+
 Para que o método `PedidoPOST.cs` da API funcione corretamente, é **obrigatório** que o serviço RabbitMQ esteja instalado e em execução no seu docker desktop [docker desktop](https://www.docker.com/products/docker-desktop/).
 
 ---
@@ -144,6 +146,28 @@ Acesse o painel de gerenciamento em [http://localhost:15672](http://localhost:15
 
 ---
 
+# 📦 Sobre o Consumer
+
+O ConsumerConsoleExample é apenas um exemplo de consumer para simular um acesso a fila do RabbitMQ para criar um dado no bamcp com EF Core. 
+Para utiliza-lo você deve garantir que a RabbitMQ esteja rodando.
+apenas substitua a connection string da Program.cs para a sua como exemplo no trecho a seguir:
+
+```csharp
+         var host = Host.CreateDefaultBuilder(args)
+             .ConfigureServices((context, services) =>
+             {
+                services.AddDbContext<AppDbContext>(options =>
+                   options.UseSqlServer("<Sua Connection String>"));
+             })
+             .Build();
+```
+Logo após  alteração, basta rodar a aplicação de console com:
+```bash
+dptnet run
+```
+
+---
 
 ## ✅ Pronto!
 
+---

@@ -1,16 +1,11 @@
-using Dapper;
 using ProductsAPI.Endpoints.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ProductsAPI.Endpoints.Pedidos;
 using ProductsAPI.Infra.Data;
-using RabbitMQ.Client;
-using System.Data.SqlClient;
 using System.Text;
-using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();

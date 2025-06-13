@@ -1,0 +1,30 @@
+<form [formGroup]="pedidoForm" (submit)="submitModel()">
+  <label>Cliente:</label>
+  <input type="text" formControlName="cliente">
+
+  <label>Status:</label>
+  <input type="number" formControlName="status">
+
+  <div formArrayName="itens">
+    <div *ngFor="let item of itens.controls; let i = index" [formGroupName]="i">
+      <label>Nome:</label>
+      <input type="text" formControlName="nome">
+
+      <label>Quantidade:</label>
+      <input type="number" formControlName="quantidade">
+
+      <label>Preço Unitário:</label>
+      <input type="number" formControlName="precoUnitario">
+
+      <button type="button" (click)="removeItem(i)" *ngIf="itens.length > 1">Remover item</button>
+      <br/>
+    </div>
+  </div>
+
+  <button type="button" (click)="addItem()">Adicionar item</button>
+
+  <label>Total Pedido:</label>
+  <input type="number" formControlName="totalPedido" disabled>
+
+  <button type="submit">Enviar Pedido</button>
+</form>

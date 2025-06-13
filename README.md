@@ -107,6 +107,11 @@ Para garantir, bra um segundo console e entre na pasta **/ProductsAPI** e use o 
 ```bash
 dotnet restore
 ```
+**Após atualizar sua connection string no appsettings.Development.json**, você pode atualizar seu banco dentro do ProductsAPI usando o comando:
+```bash
+dotnet ef database update --context AppDbContext
+```
+
 após isso, pode iniciar usando:
 
 ```bash
@@ -195,16 +200,17 @@ Authorization: Bearer <seu_token>
 
 # 📦 Sobre o ConsumerConsoleExample
 
-O ConsumerConsoleExample é apenas um exemplo de consumer para simular um acesso a fila do RabbitMQ para criar um dado no bamcp com EF Core. 
+O ConsumerConsoleExample é apenas um exemplo de **Worker monolito** de consumer para **simular** um acesso a fila do RabbitMQ para criar um dado no banco com EF Core. 
 Para utiliza-lo você deve garantir que a RabbitMQ esteja rodando.
-apenas substitua a connection string da Program.cs para a sua como exemplo no trecho a seguir:
+
+Apenas substitua a connection string de forma **manual** da Program.cs do projeto de ConsumerConsoleExample para a sua como no exemplo abaixo:
 
 ```csharp
          var host = Host.CreateDefaultBuilder(args)
              .ConfigureServices((context, services) =>
              {
                 services.AddDbContext<AppDbContext>(options =>
-                   options.UseSqlServer("<Sua Connection String>"));
+                   options.UseSqlServer("<Sua Connection String>")); // Aqui ^^
              })
              .Build();
 ```

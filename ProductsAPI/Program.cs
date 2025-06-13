@@ -45,6 +45,15 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
    options.Password.RequiredLength = 3;
 }).AddEntityFrameworkStores<AppDbContext>();
 
+builder.Services.AddCors(options =>
+{
+   options.AddDefaultPolicy(policy =>
+   {
+      policy.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+   });
+});
 
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication(x =>
@@ -68,6 +77,7 @@ builder.Services.AddAuthentication(x =>
 
 var app = builder.Build();
 
+app.UseCors();
 
 if (app.Environment.IsDevelopment())
 {

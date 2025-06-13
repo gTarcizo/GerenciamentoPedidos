@@ -7,9 +7,10 @@ using Shared.Domain;
 using Shared.Infra.Data;
 using System.Text;
 using System.Text.Json;
+
 namespace PedidoWorker
 {
-   class Program
+   class PedidoWorker
    {
       public static async Task Main(string[] args)
       {

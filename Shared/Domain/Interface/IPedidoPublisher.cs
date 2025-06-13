@@ -8,6 +8,6 @@ namespace Shared.Domain.Interface
 {
    public interface IPedidoPublisher
    {
-      Task PublicarPedidoAsync(Pedido pedido);
+      Task PublicarPedidoNoRabbitMQ(Pedido pedido);
    }
 }

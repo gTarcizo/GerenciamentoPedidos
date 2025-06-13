@@ -10,7 +10,7 @@ public class PedidoPublisher : IPedidoPublisher
 {
    private readonly string _hostname = "localhost";
 
-   public async Task PublicarPedidoAsync(Pedido pedido)
+   public async Task PublicarPedidoNoRabbitMQ(Pedido pedido)
    {
       var factory = new ConnectionFactory { HostName = _hostname };
       var connection = await factory.CreateConnectionAsync();

@@ -28,7 +28,7 @@ public class PedidoPOST
             Status = pedidoDto.status
          };
 
-         await publisher.PublicarPedidoAsync(pedido);
+         await publisher.PublicarPedidoNoRabbitMQ(pedido);
 
          return Results.Created("/pedido", $"Pedido realizado! total de: {pedido.Total}");
       }

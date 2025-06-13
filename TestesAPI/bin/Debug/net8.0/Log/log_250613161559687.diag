@@ -1,0 +1,26 @@
+2025-06-13T16:15:59.6929333+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.2+02b1557a424f6ba2ffabe0c152cd0f915f77cfd1
+2025-06-13T16:15:59.7046826+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-06-13T16:15:59.7057533+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-06-13T16:15:59.7057569+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 16:15:59.670
+2025-06-13T16:15:59.7070727+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 25504
+2025-06-13T16:15:59.7071824+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.16
+2025-06-13T16:15:59.7071923+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.16\System.Private.CoreLib.dll
+2025-06-13T16:15:59.7072014+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-06-13T16:15:59.7072431+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll
+2025-06-13T16:15:59.7074088+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\Log --results-directory E:\Repositorio\GerenciamentoPedidos\ProductsAPI\TestResults --client-port 52992'
+2025-06-13T16:15:59.7085375+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-06-13T16:15:59.7286169+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-06-13T16:15:59.7402065+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-06-13T16:16:00.0140972+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.2' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-06-13T16:16:00.0448741+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-06-13T16:16:00.0483146+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-06-13T16:16:00.0771608+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 3 tests from source E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll
+2025-06-13T16:16:00.0943627+00:00 mstest-trace INFORMATION Created unit-test runner E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll
+2025-06-13T16:16:00.0994688+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll (Workers: 16, Scope: MethodLevel)
+2025-06-13T16:16:00.1078396+00:00 mstest-trace INFORMATION Executing test InsertPedidoTest
+2025-06-13T16:16:00.1078419+00:00 mstest-trace INFORMATION Executing test GetAllPedidosTest
+2025-06-13T16:16:00.1078452+00:00 mstest-trace INFORMATION Executing test UpdateStatusPedidoTest
+2025-06-13T16:16:00.1311997+00:00 mstest-trace INFORMATION Executed test UpdateStatusPedidoTest
+2025-06-13T16:16:00.1311996+00:00 mstest-trace INFORMATION Executed test InsertPedidoTest
+2025-06-13T16:16:00.1311997+00:00 mstest-trace INFORMATION Executed test GetAllPedidosTest
+2025-06-13T16:16:00.1352029+00:00 mstest-trace INFORMATION Executed tests belonging to source E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll

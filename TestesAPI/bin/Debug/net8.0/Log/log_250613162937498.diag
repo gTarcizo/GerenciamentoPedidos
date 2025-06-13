@@ -1,0 +1,17 @@
+2025-06-13T16:29:37.5029805+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.7.2+02b1557a424f6ba2ffabe0c152cd0f915f77cfd1
+2025-06-13T16:29:37.5144681+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-06-13T16:29:37.5156084+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-06-13T16:29:37.5156117+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 16:29:37.481
+2025-06-13T16:29:37.5170305+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 30876
+2025-06-13T16:29:37.5171404+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.16
+2025-06-13T16:29:37.5171552+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.16\System.Private.CoreLib.dll
+2025-06-13T16:29:37.5171642+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-06-13T16:29:37.5172046+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll
+2025-06-13T16:29:37.5173781+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\Log --results-directory E:\Repositorio\GerenciamentoPedidos\ProductsAPI\TestResults --client-port 53040'
+2025-06-13T16:29:37.5184929+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-06-13T16:29:37.5386624+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-06-13T16:29:37.5506783+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-06-13T16:29:37.6725146+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.9.2' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-06-13T16:29:37.6798661+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Runsettings attribute 'MaxCpuCount' is not supported by Microsoft.Testing.Platform and will be ignored
+2025-06-13T16:29:37.6863547+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-06-13T16:29:37.7170777+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 3 tests from source E:\Repositorio\GerenciamentoPedidos\TestesAPI\bin\Debug\net8.0\TestesAPI.dll

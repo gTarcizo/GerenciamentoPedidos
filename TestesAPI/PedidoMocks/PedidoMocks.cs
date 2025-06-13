@@ -19,12 +19,12 @@ namespace TestesAPI.Mocks
          };
       }
 
-      public static Pedido PedidoConcluido()
+      public static Pedido PedidoProcessado()
       {
          return new Pedido
          {
             Cliente = "Gabriel",
-            Status = StatusPedidoEnum.Pendente,
+            Status = StatusPedidoEnum.Processado,
             Total = 200,
             Itens = new List<ItemPedido>
                 {

@@ -203,7 +203,7 @@ Authorization: Bearer <seu_token>
 O ConsumerConsoleExample é apenas um exemplo de **Worker monolito** de consumer para **simular** um acesso a fila do RabbitMQ para criar um dado no banco com EF Core. 
 Para utiliza-lo você deve garantir que a RabbitMQ esteja rodando.
 
-Apenas substitua a connection string de forma **manual** da Program.cs do projeto de ConsumerConsoleExample para a sua como no exemplo abaixo:
+Apenas substitua a connection string de forma **manual** da PedidoWorker.cs do projeto de ConsumerConsoleExample para a sua como no exemplo abaixo:
 
 ```csharp
          var host = Host.CreateDefaultBuilder(args)

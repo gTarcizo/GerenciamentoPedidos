@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using ConsumerConsoleExample.Services;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RabbitMQ.Client;
@@ -19,6 +20,7 @@ namespace PedidoWorker
              {
                 services.AddDbContext<AppDbContext>(options =>
                    options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=PedidosDb;User Id=admin;Password=admin;MultipleActiveResultSets=true;Encrypt=YES;TrustServerCertificate=YES"));
+                services.AddScoped<PedidoConsumerService>();
              })
              .Build();
 
@@ -52,10 +54,9 @@ namespace PedidoWorker
                }
 
                using var scope = host.Services.CreateScope();
-               var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+               var consumerService = scope.ServiceProvider.GetRequiredService<PedidoConsumerService>();
 
-               db.Pedidos.Add(pedido);
-               await db.SaveChangesAsync();
+               await consumerService.ProcessarPedidoAsync(pedido);
 
                Console.WriteLine($"Pedido ID {pedido.Id} salvo no banco.");
             }

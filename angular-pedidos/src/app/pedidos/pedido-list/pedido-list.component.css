@@ -18,6 +18,7 @@
   gap: 8px;
   align-items: center;
   margin-top: 10px;
+  justify-content: center;
 }
 
 select {
@@ -46,6 +47,6 @@ button:hover {
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
 }

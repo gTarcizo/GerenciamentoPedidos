@@ -1,24 +1,28 @@
-<h2>Lista de Pedidos</h2>
-
-<div class="pedido-container">
-  <div *ngIf="pedidos.length === 0">
-    <p id="semPedidos">Nenhum pedido encontrado.</p>
-    <button (click)="carregarPedidos()">Recarregar Lista</button>
-  </div>
-
-  <div *ngFor="let pedido of pedidos" class="pedido-card">
-    <div class="pedido-header">Cliente: {{ pedido.cliente }}</div>
-
-    <div><strong>Total:</strong> {{ pedido.totalPedido | currency:'BRL':'symbol':'1.2-2' }}</div>
-
-    <div class="pedido-actions">
-      <label><strong>Status:</strong></label>
-      <select [(ngModel)]="pedido.status">
-        <option [value]="1">Pendente</option>
-        <option [value]="2">Processado</option>
-      </select>
-
-      <button (click)="atualizarStatus(pedido)">Atualizar Status</button>
-    </div>
-  </div>
+<div style="width: 50%; margin: 0 auto; padding: 20px;">
+  <label for="filtroStatus">Filtrar por status:</label>
+  <select id="filtroStatus" [(ngModel)]="filtroStatus" (change)="aplicarFiltro()">
+    <option [ngValue]="null">Todos</option>
+    <option [ngValue]="1">Pendente</option>
+    <option [ngValue]="2">Processado</option>
+  </select>
+  <button (click)="carregarPedidos()">Recarregar Lista</button>
 </div>
+
+<div *ngIf="pedidosFiltrados.length > 0; else semPedidos" style="width: 50%; margin: 0 auto;">
+  <div *ngFor="let pedido of pedidosFiltrados" style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+    <p><strong>Cliente:</strong> {{ pedido.cliente }}</p>
+    <p><strong>Total:</strong> {{ pedido.totalPedido }}</p>
+    <label for="status">Status:</label>
+    <select [(ngModel)]="pedido.status" name="status">
+      <option [value]="1">Pendente</option>
+      <option [value]="2">Processado</option>
+    </select>
+
+    <button (click)="atualizarStatus(pedido)">Atualizar Status</button>
+  </div>
+  <br/>
+</div>
+
+<ng-template #semPedidos>
+  <p style="text-align:center;">Nenhum pedido encontrado.</p>
+</ng-template>

@@ -91,7 +91,9 @@ export class PedidoFormComponent {
   const headers = this.retornarHeaders();
 
   this.http.post('http://localhost:5109/pedido', pedidoDto, { headers }).subscribe({
-    next: () => alert('Pedido enviado com sucesso!'),
+    next: () => {
+      alert('Pedido enviado com sucesso!');
+    },
     error: (err) => {
       if (err.status === 401) {
         alert('Não autorizado');

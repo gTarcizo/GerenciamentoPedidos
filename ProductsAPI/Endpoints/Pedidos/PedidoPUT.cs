@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Shared.Domain.Interface;
 using Shared.EnumsSistema;
 using Shared.Infra.Data;
 
@@ -12,19 +13,13 @@ public class PedidoPUT
    public static Delegate Handler => Action;
 
    [Authorize]
-   public static IResult Action([FromRoute] int id, StatusPedidoEnum status, HttpContext http, AppDbContext context)
-
+   public static async Task<IResult> Action([FromRoute] int id, StatusPedidoEnum status, HttpContext http, IPedidoRepository repository)
    {
+
       try
       {
-         var pedido = context.Pedidos.Where(x => x.Id == id).FirstOrDefault();
-         if (pedido == null) return Results.NotFound("Pedido não Encontrado");
-
-         pedido.Status = status;
-         context.Pedidos.Update(pedido);
-         context.SaveChanges();
-
-         return Results.Created($"/pedido/{pedido.Id}", pedido.Id);
+         await repository.UpdateStatusAsync(id, status);
+         return Results.Created($"/pedido/{id}", id);
       }
       catch (Exception e)
       {

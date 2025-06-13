@@ -4,7 +4,10 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using ProductAPI.Endpoints.Pedidos;
 using ProductAPI.Endpoints.Security;
+using Shared.Domain.Interface;
 using Shared.Infra.Data;
+using Shared.Infra.Repository;
+using Shared.Infra.Messaging;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -74,6 +77,11 @@ builder.Services.AddAuthentication(x =>
       ClockSkew = TimeSpan.Zero
    };
 });
+
+#region Scoped
+builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
+builder.Services.AddScoped<IPedidoPublisher, PedidoPublisher>();
+#endregion
 
 var app = builder.Build();
 

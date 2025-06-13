@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.EntityFrameworkCore;
 using Shared.Domain;
-using Shared.Infra.Data;
+using Shared.Domain.Interface;
 
 namespace ProductAPI.Endpoints.Pedidos;
 
@@ -12,13 +11,13 @@ public class PedidosGETAll
    public static Delegate Handler => Action;
 
    [Authorize]
-   public static async Task<IResult> Action(AppDbContext context)
+   public static async Task<IResult> Action(IPedidoRepository repository)
    {
       try
       {
          List<Pedido> pedidos = new List<Pedido>();
          List<PedidoDto> pedidoDto = new List<PedidoDto>();
-         pedidos = await context.Pedidos.Include(p => p.Itens).ToListAsync();
+         pedidos = await repository.GetAllPedidos();
          foreach (var pedido in pedidos)
          {
             pedidoDto.Add(new PedidoDto(pedido.Id, pedido.Cliente, pedido.Itens, pedido.Total, pedido.Status));

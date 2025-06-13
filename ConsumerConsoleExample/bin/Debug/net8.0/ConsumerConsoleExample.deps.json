@@ -1017,6 +1017,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
+          "RabbitMQ.Client": "7.1.2",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {

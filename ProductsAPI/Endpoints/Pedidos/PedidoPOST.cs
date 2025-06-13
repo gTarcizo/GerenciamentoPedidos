@@ -1,10 +1,6 @@
 ﻿using Shared.Domain;
-using Shared.Infra.Data;
 using Microsoft.AspNetCore.Authorization;
-using System.Security.Claims;
-using RabbitMQ.Client;
-using System.Text.Json;
-using System.Text;
+using Shared.Domain.Interface;
 
 namespace ProductAPI.Endpoints.Pedidos;
 
@@ -15,7 +11,7 @@ public class PedidoPOST
   public static Delegate Handler => Action;
 
   [Authorize]
-  public static async Task<IResult> Action(PedidoDto pedidoDto,HttpContext http ,AppDbContext context)
+  public static async Task<IResult> Action(PedidoDto pedidoDto,HttpContext http , IPedidoPublisher publisher)
   {
     try
     {
@@ -32,16 +28,8 @@ public class PedidoPOST
             Status = pedidoDto.status
          };
 
-         var factory = new ConnectionFactory { HostName = "localhost" };
-         var connection = await factory.CreateConnectionAsync();
-         var channel = await connection.CreateChannelAsync();
-         await channel.QueueDeclareAsync(queue: "criar-pedido", durable: false, exclusive: false, autoDelete: false, arguments: null);
+         await publisher.PublicarPedidoAsync(pedido);
 
-         var message = JsonSerializer.Serialize(pedido);
-         var body = Encoding.UTF8.GetBytes(message);
-
-         await channel.BasicPublishAsync(exchange: "", routingKey: "criar-pedido", body: body);
-         
          return Results.Created("/pedido", $"Pedido realizado! total de: {pedido.Total}");
       }
       catch(Exception e)

@@ -1,0 +1,51 @@
+.pedido-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  background-color: #fff;
+}
+
+.pedido-header {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.pedido-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+select {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 7px 9px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.pedido-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}

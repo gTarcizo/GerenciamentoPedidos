@@ -1,0 +1,24 @@
+<h2>Lista de Pedidos</h2>
+
+<div class="pedido-container">
+  <div *ngIf="pedidos.length === 0">
+    <p id="semPedidos">Nenhum pedido encontrado.</p>
+    <button (click)="carregarPedidos()">Recarregar Lista</button>
+  </div>
+
+  <div *ngFor="let pedido of pedidos" class="pedido-card">
+    <div class="pedido-header">Cliente: {{ pedido.cliente }}</div>
+
+    <div><strong>Total:</strong> {{ pedido.totalPedido | currency:'BRL':'symbol':'1.2-2' }}</div>
+
+    <div class="pedido-actions">
+      <label><strong>Status:</strong></label>
+      <select [(ngModel)]="pedido.status">
+        <option [value]="1">Pendente</option>
+        <option [value]="2">Processado</option>
+      </select>
+
+      <button (click)="atualizarStatus(pedido)">Atualizar Status</button>
+    </div>
+  </div>
+</div>

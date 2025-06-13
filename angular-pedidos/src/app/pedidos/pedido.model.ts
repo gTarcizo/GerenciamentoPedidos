@@ -13,3 +13,11 @@ export interface Pedido {
   totalPedido: number;
   status: number;
 }
+
+export interface PedidoDto {
+  id: number;
+  cliente: string;
+  itens: Item[];
+  totalPedido: number;
+  status: number;
+}

@@ -1,0 +1,7 @@
+<div class="container">
+  <button (click)="autenticar()">Autenticar</button>
+  <div *ngIf="token">
+    <h3>Agora você está autenticado por um Bearer Token</h3>
+    <pre id="tokenJWT">{{ token }}</pre>
+  </div>
+</div>

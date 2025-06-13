@@ -3,6 +3,21 @@
   "WorkspaceRootPath": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DFEAD7E5-DA24-4013-97AD-BCD0CF3E1F4A}|..\\TestesAPI\\TestesAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\testesapi\\testesapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEAD7E5-DA24-4013-97AD-BCD0CF3E1F4A}|..\\TestesAPI\\TestesAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\testesapi\\fakerepository\\fakerepositoryproductsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEAD7E5-DA24-4013-97AD-BCD0CF3E1F4A}|..\\TestesAPI\\TestesAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\testesapi\\pedidomocks\\pedidomocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\domain\\interface\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEAD7E5-DA24-4013-97AD-BCD0CF3E1F4A}|..\\TestesAPI\\TestesAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\testesapi\\testesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|e:\\repositorio\\gerenciamentopedidos\\productsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F512814-2FB5-43A7-9D16-FE0B8C92B81E}|ProductsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,9 +34,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\infra\\messaging\\pedidopublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\domain\\interface\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F4C12CB-0678-45F2-B348-F88E51495851}|..\\Shared\\Shared.csproj|e:\\repositorio\\gerenciamentopedidos\\shared\\infra\\repository\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -42,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "IPedidoRepository.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Domain\\Interface\\IPedidoRepository.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Domain\\Interface\\IPedidoRepository.cs",
               "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Domain\\Interface\\IPedidoRepository.cs",
               "RelativeToolTip": "..\\Shared\\Domain\\Interface\\IPedidoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T14:58:13.24Z",
               "IsPinned": true,
@@ -60,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "PedidoRepository.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Infra\\Repository\\PedidoRepository.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Infra\\Repository\\PedidoRepository.cs",
@@ -74,20 +86,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenPOST.cs",
-              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
-              "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPOST.cs",
-              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
-              "RelativeToolTip": "Endpoints\\Security\\TokenPOST.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PedidoMocks.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\PedidoMocks\\PedidoMocks.cs",
+              "RelativeDocumentMoniker": "..\\TestesAPI\\PedidoMocks\\PedidoMocks.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\PedidoMocks\\PedidoMocks.cs",
+              "RelativeToolTip": "..\\TestesAPI\\PedidoMocks\\PedidoMocks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T15:43:35.103Z",
+              "WhenOpened": "2025-06-13T16:05:54.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "FakeRepositoryProductsAPI.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\FakeRepository\\FakeRepositoryProductsAPI.cs",
+              "RelativeDocumentMoniker": "..\\TestesAPI\\FakeRepository\\FakeRepositoryProductsAPI.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\FakeRepository\\FakeRepositoryProductsAPI.cs",
+              "RelativeToolTip": "..\\TestesAPI\\FakeRepository\\FakeRepositoryProductsAPI.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T15:55:58.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestesAPI.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\TestesAPI.cs",
+              "RelativeDocumentMoniker": "..\\TestesAPI\\TestesAPI.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\TestesAPI.cs",
+              "RelativeToolTip": "..\\TestesAPI\\TestesAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T15:55:40.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestesAPI",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\TestesAPI.csproj",
+              "RelativeDocumentMoniker": "..\\TestesAPI\\TestesAPI.csproj",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\TestesAPI\\TestesAPI.csproj",
+              "RelativeToolTip": "..\\TestesAPI\\TestesAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-13T15:55:14.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IPedidoPublisher.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Domain\\Interface\\IPedidoPublisher.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Domain\\Interface\\IPedidoPublisher.cs",
@@ -100,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "PedidoPOST.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidoPOST.cs",
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidoPOST.cs",
@@ -113,20 +172,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T15:12:04.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "TokenPOST.cs",
+              "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
+              "RelativeDocumentMoniker": "Endpoints\\Security\\TokenPOST.cs",
+              "ToolTip": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Security\\TokenPOST.cs",
+              "RelativeToolTip": "Endpoints\\Security\\TokenPOST.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T15:43:35.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PedidoPublisher.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\Shared\\Infra\\Messaging\\PedidoPublisher.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Infra\\Messaging\\PedidoPublisher.cs",
@@ -139,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "PedidoPUT.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidoPUT.cs",
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidoPUT.cs",
@@ -152,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "PedidosGETAll.cs",
               "DocumentMoniker": "E:\\Repositorio\\GerenciamentoPedidos\\ProductsAPI\\Endpoints\\Pedidos\\PedidosGETAll.cs",
               "RelativeDocumentMoniker": "Endpoints\\Pedidos\\PedidosGETAll.cs",
